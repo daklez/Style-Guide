@@ -1,135 +1,155 @@
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 300, 700;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
-html{
-    font-family: sans-serif;
+
+html {
+  font-family: sans-serif;
 }
-header{
-    width: 50%;
-    margin-left: 20%;
+
+header {
+  width: 50%;
+  margin-left: 20%;
 }
+
 .container {
-    width: 50%;
-    margin-left: 20%;
-    border: 2px solid;
+  width: 50%;
+  margin-left: 20%;
+  border: 2px solid;
 }
+
 #prototype {
-    background-color: #c5baaf;
-    
-    height: 450px;
+  background-color: #c5baaf;
+  height: 450px;
 }
-#colors, #typography {
-    float: left;
-    
+
+#colors,
+#typography {
+  float: left;
 }
 
 #colors {
-    margin-left: 10px;
-    border-left: 2px solid;
-    padding: 0 0 0 90px;
-    
+  margin-left: 10px;
+  border-left: 2px solid;
+  padding: 0 0 0 90px;
 }
+
 #nav-bar {
-    width: 100%;
-    
-    background-color:#d5aca9;
+  width: 100%;
+  background-color: #d5aca9;
 }
-#prototype-heading, #prototype-subheading, #prototype-body {
-    text-align: justify;
-    width: 50%;
-    margin-left: 15%;
-    
+
+#prototype-heading,
+#prototype-subheading,
+#prototype-body {
+  text-align: justify;
+  width: 50%;
+  margin-left: 15%;
 }
+
 #decor {
-    background-color: #d5aca9;
-    margin: 0;
-    height: 10px;
-    width: 200px;
-    position: relative;
-    bottom: 50px;
-    left: 180px;
+  background-color: #d5aca9;
+  margin: 0;
+  height: 10px;
+  width: 200px;
+  position: relative;
+  bottom: 50px;
+  left: 180px;
 }
+
 .color {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
+
 .color p {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position:relative;
-    top: 30px;
-       
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  top: 30px;
 }
-.color p:last-child{
-    font-weight: bold;
+
+.color p:last-child {
+  font-weight: bold;
 }
-.color p:first-child{
-    font-size: 10px;
+
+.color p:first-child {
+  font-size: 10px;
 }
+
 .charcoal {
-    background-color: #424B54;
-    color: whitesmoke;
+  background-color: #424b54;
+  color: whitesmoke;
 }
+
 .english-lavander {
-    background-color: #b38d97;
-    color: whitesmoke;
+  background-color: #b38d97;
+  color: whitesmoke;
 }
+
 .pastel-pink {
-    background-color: #d5aca9;
+  background-color: #d5aca9;
 }
+
 .desert-sand {
-    background-color: #ebcfb2;
+  background-color: #ebcfb2;
 }
+
 .pale-silver {
-    background-color: #c5baaf;
+  background-color: #c5baaf;
 }
 
 .heading {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 40px;
-}
-.subheading{
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: large; 
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
 }
 
-.buttons-text{
-    font-family: 'Josefin Sans';
-    font-weight: 700;
-    font-size: small;
-    
+.subheading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: large;
 }
+
+.buttons-text {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: small;
+}
+
 .btn {
-    padding: 15px 5px 10px;
-    color: #ebcfb2;
-    background-color:#424B54;
-    width: 80px;
-    text-align: center;
-    margin-left: 15%;
-
+  padding: 15px 5px 10px;
+  color: #ebcfb2;
+  background-color: #424b54;
+  width: 80px;
+  text-align: center;
+  margin-left: 15%;
 }
-.body-text{
-    font-family: 'Josefin Sans';
-    font-weight: 300;
+
+.body-text {
+  font-family: "Josefin Sans";
+  font-weight: 300;
 }
 
 li {
-    font-family: monospace;
+  font-family: monospace;
 }
