@@ -33,11 +33,12 @@ header {
   width: 50%;
   margin-left: 20%;
   border: 2px solid;
+  min-width: 750px;
 }
 
 #prototype {
   background-color: #c5baaf;
-  height: 450px;
+  height: 450px; 
 }
 
 #colors,
